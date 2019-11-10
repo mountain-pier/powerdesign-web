@@ -7,4 +7,5 @@
         dotnet restore
         dotnet run
 ```
+https://localhost:5001/WeatherForecast
     

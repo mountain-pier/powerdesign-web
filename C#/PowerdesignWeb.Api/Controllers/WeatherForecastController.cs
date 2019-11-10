@@ -29,7 +29,7 @@ namespace PowerdesignWeb.Api.Controllers
         [HttpGet]
         public PdmModels Get()
         {
-            string filePath = $"{AppContext.BaseDirectory}表单流程.pdm";
+            string filePath = $"{AppContext.BaseDirectory}/pdm/表单流程.pdm";
             var pmdModel = _pdmService.ReadFromFile(filePath);
             return pmdModel;
         }
